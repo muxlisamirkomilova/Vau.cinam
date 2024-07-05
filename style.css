@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    border: 5px solid #aa58be;
+    border-radius: 5px;
+    width: 270px;
+    text-align: center;
+    padding: 10px;
+    background-image: url("https://i.pinimg.com/originals/93/10/ae/9310aef089a9f7014438f0a64cbe6e1d.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .display {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    border: 1px solid #FFF;
+    background: rgba(7, 15, 25, 0.20);
+    color: #FFF;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+  }
